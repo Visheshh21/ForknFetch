@@ -8,7 +8,7 @@ import os
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print('Device set to ', device)
-df=pd.read_csv('data.csv',engine='python', on_bad_lines='warn')
+df = pd.read_csv('data.csv', engine='python', encoding='latin1', on_bad_lines='warn')
 df['text'] = df['Name'] + '. ' + df['Description'].fillna('') + '. Ingredients: ' + df['RecipeIngredientParts'].fillna('') + '. Instructions: ' + df['RecipeInstructions'].fillna('')
 documents = [
     Document(page_content=row['text'], metadata={"name": row['Name'], "calories": row.get('Calories', 'N/A')})
