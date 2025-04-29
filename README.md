@@ -27,3 +27,8 @@ The recipe dataset was sourced from [**Eight Portions**](https://eightportions.c
 * **RAG Framework**: LangChain
 * **Frontend**: Streamlit
 * **GPU Acceleration**: CUDA support (when available)
+
+## 📋 Prerequisites
+* Python 3.8+
+* CUDA-compatible GPU (optional, for faster processing)
+* Ollama with llama3.2 model installed
