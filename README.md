@@ -14,11 +14,10 @@ Fork & Fetch is a Retrieval-Augmented Generation (RAG) powered recipe assistant.
 
 ## 📚 Dataset
 The recipe dataset was sourced from [**Eight Portions**](https://eightportions.com/datasets/Recipes/#fn:1) and contains approximately 125,000 recipes scraped from various food websites. Each recipe in the dataset includes:
-- Recipe title
-- List of ingredients and measurements
-- Instructions for preparation
-- Source URL
-- Picture (in some cases)
+- **title** – Name of the recipe  
+- **ingredients** – List of ingredients with measurements  
+- **instructions** – Step-by-step preparation steps  
+- **picture_link** – URL to the dish image  
 
 ## 🛠️ Technology Stack
 * **Vector Database**: FAISS for efficient similarity search
