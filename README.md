@@ -12,7 +12,7 @@ Fork & Fetch is a Retrieval-Augmented Generation (RAG) powered recipe assistant.
 - [**Embedder.py:**](https://github.com/Visheshh21/ForknFetch/blob/main/embedder.py) Demonstrates the process of creating embeddings from the recipe dataset using HuggingFace's sentence transformers.
 - [**Fork&Fetch.py:**](https://github.com/Visheshh21/ForknFetch/blob/main/Fork%26Fetch.py) Contains the complete RAG implementation for recipe search and recommendation with a user-friendly Streamlit UI.
 
-## Results
+## 📈 Results
 
 ### Automated Metrics
 
