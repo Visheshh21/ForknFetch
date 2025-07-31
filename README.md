@@ -14,7 +14,7 @@ Fork & Fetch is a Retrieval-Augmented Generation (RAG) powered recipe assistant.
 
 ## Results
 
-# Automated Metrics
+### Automated Metrics
 
 | Metric   | Type         | Base LLM | RAG  | Improvement (%) |
 |----------|--------------|----------|------|-----------------|
